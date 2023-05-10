@@ -4,7 +4,7 @@ import time
 
 def gen_proxy():
 
-  f = open('./result/proxy.txt')
+  f = open('./result/proxy.txt', 'a+')
 
   asking = str(input('How Many Proxy To Scrape: '))
 
